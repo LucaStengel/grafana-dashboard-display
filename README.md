@@ -22,6 +22,8 @@ Restart:
 
 Type in terminal:
 
+	mkdir .config/autostart/
+
 	nano .config/autostart/browser.desktop
 
 Copy this text in the file and switch the link for the real one:
@@ -31,3 +33,7 @@ Copy this text in the file and switch the link for the real one:
 	Name=Browser Starten
 	Exec=/usr/bin/chromium-browser --disable-translate --disable-popup-blocking --kiosk --noerrdialogs --disable-infobars --no-first-run  "http://10.27.206.107:3000/d/CTEYII44k/screenslave7?orgId=1&refresh=5s&kiosk=&from=now-21d&to=now"
 	Terminal=false
+
+Restart:
+
+	sudo reboot
