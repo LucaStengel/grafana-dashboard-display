@@ -1,6 +1,6 @@
 # Mein Projekt
 
-This project displays a grafana dashboard in full display mode on a Raspberry Pi 3b+.
+This project displays a grafana dashboard in full display mode on a Raspberry Pi 3b+, with Raspbian OS Lite 32bit installed.
 
 # Setup
 
