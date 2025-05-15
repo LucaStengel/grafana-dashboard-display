@@ -15,7 +15,9 @@ Start rasberry and connect via ssh.
 Update the raspberry via:
 
 	sudo apt update &&b sudo apt upgrade -y
-	
+
+Restart:
+
 	sudo reboot
 
 Type in terminal:
