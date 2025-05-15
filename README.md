@@ -4,6 +4,34 @@ This project displays a grafana dashboard in full display mode on a Raspberry Pi
 
 # Setup
 
+The Raspberry is setup by the Raspberry Imager:
+	
+	Raspberry PI OS Lite, 32Bit
+	SSH enabled
+	name: pikiosk, pw: pikiosk
+
+Start Rasberry and connect via ssh.
+
+Update the Raspberry via:
+
+	sudo apt update
+	
+	sudo apt upgrade
+
+
+Reboot the Raspberry:
+
+	sudo reboot
+
+Connect again via ssh.
+
+Install wtype:
+
+	sudo apt install wtype
+
+
+
+
 Clone the repo into your home folder:
 
 
