@@ -16,6 +16,8 @@ Update the raspberry via:
 
 	sudo apt update
  
+ Upgrade:
+ 
  	sudo apt upgrade -y
 
 Restart:
